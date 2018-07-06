@@ -1,18 +1,16 @@
-html, body {
-    height: 100%;
-    margin: 0;
-    padding: 0;
-}
-
-#loadingScreen {
-    width: 100%;
-    height: 100%;
-    background-color: #FEDC3D;
-    position: relative;
+html,body {
+    width: auto;
+    height: auto;
+    background-image: url("space_invaders.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
 }
 
 #heartLogo {
     width: 100%;
-    position: absolute;
+    position: relative;
     top: 50%;
 }

@@ -9,6 +9,14 @@ html,body {
     background-repeat: repeat;
 }
 
+/* HEART LOGO */
+
+#heartLogo {
+    animation-name: heartLogoMove;
+    animation-duration: 1s;
+    animation-delay: 2.1s;
+}
+
 /* CASETTE CSS */
 
 .casetteCol {
@@ -131,6 +139,11 @@ html,body {
 @keyframes casetteMoveupMobile {
     from { transform: translate(0%, 450%); }
     to { transform: translate(0%, 0%)}
+}
+
+@keyframes heartLogoMove {
+    from { transform: translate(0%); }
+    to { transform: translate(250%)}
 }
 
 @keyframes delayedShow {

@@ -13,10 +13,15 @@ class App extends Component {
   }
 
   componentDidMount = () => {
-    $("#loadingScreen").remove()
-    this.setState({currentScreen: "home"}, function() {
-      this.setState({showHome: true})
-    })
+
+    let self = this;
+
+    setTimeout(function() {
+      $('#loadingScreen').remove()
+      self.setState({currentScreen: "home"}, function() {
+        self.setState({showHome: true})
+      })
+    }, 3000)
   }
 
   componentChange = (field, value) => {
