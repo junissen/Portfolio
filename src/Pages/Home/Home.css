@@ -64,7 +64,7 @@ html,body {
     /* background-color: purple; */
     z-index: 1;
     top: 36%;
-    left:27.8%;
+    left:27.75%;
 }
 
 .casetteDivRight {
@@ -74,7 +74,7 @@ html,body {
     /* background-color: purple; */
     z-index: 1;
     top: 36%;
-    right: 27.2%;
+    right: 27.17%;
 }
 
 #casetteIconLeft {
@@ -129,6 +129,25 @@ html,body {
         margin-left: auto;
         margin-right: auto;
     }
+    .casetteTextSubTitleDiv {
+        position: absolute;
+        height: 8%;
+        z-index: 1;
+        bottom: 29%;
+        left:32%;
+        font-size: 2.2vw;
+        text-align: center;
+    }
+
+    .casetteDivLeft {
+        position: absolute;
+        width: 12%;
+        height: 19%;
+        z-index: 1;
+        top: 36%;
+        left:27.78%;
+    }
+
 }
 
 
