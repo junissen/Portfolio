@@ -1,0 +1,29 @@
+nav {
+    animation: navbarMoveDown;
+    animation-duration: 0.5s;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    font-family: 'Prosto One', cursive;
+    font-size: 20px;
+}
+
+
+.navbar-nav {
+    width: 100%;
+}
+
+.navCol {
+    text-align: center;
+    padding: 0px;
+    margin: 0px;
+}
+
+@keyframes navbarMoveDown {
+    from { transform: translate(0%, -100%); }
+    to { transform: translate(0%, 0%)}
+}
+
+

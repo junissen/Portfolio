@@ -1,0 +1,123 @@
+html,body {
+    width: auto;
+    height: auto;
+    background-image: url("space_invaders.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+/* CASETTE CSS */
+.casetteDiv {
+    animation-name: casetteMoveup;
+    animation-duration: 0.5s;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 75%;
+    position: relative;
+}
+
+#casetteLogo {
+    width: 100%;
+    z-index: 0;
+}
+
+.casetteTextTitleDiv {
+    position: absolute;
+    width: 60%;
+    height: 15%;
+    /* background-color: purple; */
+    z-index: 1;
+    top: 16%;
+    left:20%;
+    font-size: 4.5vw;
+    letter-spacing: 4px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+}
+
+.casetteTextSubTitleDiv {
+    position: absolute;
+    height: 8%;
+    /* background-color: purple; */
+    z-index: 1;
+    bottom: 29%;
+    left:31%;
+    font-size: 2.0vw;
+    text-align: center;
+}
+
+.casetteDivLeft {
+    position: absolute;
+    width: 12%;
+    height: 19%;
+    /* background-color: purple; */
+    z-index: 1;
+    top: 36%;
+    left:27.8%;
+}
+
+.casetteDivRight {
+    position: absolute;
+    width: 12%;
+    height: 19%;
+    /* background-color: purple; */
+    z-index: 1;
+    top: 36%;
+    right: 27.2%;
+}
+
+#casetteIconLeft {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    animation: rotating 10s linear infinite;
+}
+
+#casetteIconRight {
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    animation: rotating 10s linear infinite;
+}
+
+.casetteTextSubTitleDiv p{
+    font-family: monospace;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: 
+        typing 3.5s steps(20, end),
+        step-end infinite;
+
+}
+
+@keyframes rotating {
+    from{
+        -webkit-transform: rotate(0deg);
+    }
+    to{
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes typing {
+    from { width: 0}
+    to { width: 100% }
+}
+
+@keyframes casetteMoveup {
+    from { transform: translate(0%, 150%); }
+    to { transform: translate(0%, 0%)}
+}
+
+
+
+
+
