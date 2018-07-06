@@ -10,6 +10,11 @@ html,body {
 }
 
 /* CASETTE CSS */
+
+.casetteCol {
+    margin: 0px;
+    padding: 0px;
+}
 .casetteDiv {
     animation-name: casetteMoveup;
     animation-duration: 0.5s;
@@ -115,6 +120,15 @@ html,body {
 @keyframes casetteMoveup {
     from { transform: translate(0%, 150%); }
     to { transform: translate(0%, 0%)}
+}
+
+@media only screen and (max-width: 736px) {
+    .casetteDiv {
+        width: 90%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
 
 

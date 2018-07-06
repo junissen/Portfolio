@@ -26,4 +26,10 @@ nav {
     to { transform: translate(0%, 0%)}
 }
 
+@media only screen and (max-width: 736px) {
+    .nav-link {
+        font-size: 13px;
+    }
+}
+
 

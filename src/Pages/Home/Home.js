@@ -28,7 +28,7 @@ class Home extends Component {
                 <Navbar currentScreen={this.props.currentScreen}/> 
                 <div id="homeDiv">
                     <div className="row" >
-                        <div className="col-12">
+                        <div className="col-12 casetteCol">
                             <div className="casetteDiv">
                                 <img src={casette} alt="casette" id="casetteLogo" />
                                     <div className="casetteDivLeft">
