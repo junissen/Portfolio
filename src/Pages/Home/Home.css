@@ -124,7 +124,7 @@ html,body {
 
 @media only screen and (max-width: 736px) {
     .casetteDiv {
-        width: 90%;
+        width: 80%;
         display: block;
         margin-left: auto;
         margin-right: auto;
