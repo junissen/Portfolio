@@ -44,6 +44,8 @@ html,body {
     letter-spacing: 4px;
     text-align: center;
     font-family: 'Lobster', cursive;
+    visibility: hidden;
+    animation: 0s linear 0.1s forwards delayedShow;
 }
 
 .casetteTextSubTitleDiv {
@@ -65,6 +67,8 @@ html,body {
     z-index: 1;
     top: 36%;
     left:27.75%;
+    visibility: hidden;
+    animation: 0s linear 0.1s forwards delayedShow;
 }
 
 .casetteDivRight {
@@ -75,6 +79,8 @@ html,body {
     z-index: 1;
     top: 36%;
     right: 27.17%;
+    visibility: hidden;
+    animation: 0s linear 0.1s forwards delayedShow;
 }
 
 #casetteIconLeft {
@@ -125,6 +131,12 @@ html,body {
 @keyframes casetteMoveupMobile {
     from { transform: translate(0%, 450%); }
     to { transform: translate(0%, 0%)}
+}
+
+@keyframes delayedShow {
+    to {
+        visibility: visible
+    }
 }
 
 @media only screen and (max-width: 736px) {
