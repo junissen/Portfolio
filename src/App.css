@@ -1,0 +1,59 @@
+html,body {
+    width: auto;
+    height: auto;
+}
+
+#appHomeDiv {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Pages/Home/space_invaders.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+#home {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Pages/Home/space_invaders.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+#about {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Pages/About/space_invaders_about.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+#portfolio {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Pages/Portfolio/space_invaders_portfolio.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
+}
+
+#contact {
+    height: 100vh;
+    width: 100vw;
+    background-image: url("./Pages/Contact/space_invaders_contact.png");
+    -webkit-background-size: 50%;
+    -moz-background-size: 50%;
+    -o-background-size: 50%;
+    background-size: 50%;
+    background-repeat: repeat;
+}

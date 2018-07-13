@@ -2,8 +2,7 @@ import React, { Component } from 'react';
 import "./Home.css";
 import casette from "../../assets/images/casette/casette_without.png";
 import casetteIcon from "../../assets/images/casette/casette_icon.png";
-import Navbar from "../../Components/Navbar/Navbar";
-import $ from "jquery";
+
 
 class Home extends Component {
 
@@ -21,8 +20,8 @@ class Home extends Component {
 
     render() {
         return (
-            <div>
-                <Navbar currentScreen={this.props.currentScreen}/> 
+            <div id="homeCompleteDiv">
+                {/* <Navbar currentScreen={this.props.currentScreen} changeScreen={this.props.changeScreen}/>  */}
                 <div id="homeDiv">
                     <div className="row" >
                         <div className="col-12 casetteCol">

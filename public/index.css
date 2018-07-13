@@ -1,6 +1,11 @@
 html,body {
-    width: auto;
     height: auto;
+    width: auto;
+}
+
+#loadingScreen {
+    height: 100vh;
+    width: 100vw;
     background-image: url("space_invaders.png");
     -webkit-background-size: 50%;
     -moz-background-size: 50%;

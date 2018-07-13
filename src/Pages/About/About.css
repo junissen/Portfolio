@@ -1,0 +1,24 @@
+.aboutBlock {
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+    height: 20vh;
+    background-color: #FEB9AC;
+    border-radius: 20px;
+    z-index: 0;
+    /* background-image: url("./piccollage.png");
+    background-repeat: none;
+    background-size: cover;
+    background-blend-mode: overlay; */
+}
+
+#homeTransition {
+    animation: aboutMoveDown;
+    animation-duration: 0.5s;
+}
+
+@keyframes aboutMoveDown {
+    from { transform: translate(0%, -125%); }
+    to { transform: translate(0%, 0%)}
+}

@@ -1,6 +1,11 @@
-nav {
+#firstHomeNavbar {
     animation: navbarMoveDown;
     animation-duration: 0.5s;
+}
+
+.navbarDiv {
+    position: relative;
+    z-index: 1
 }
 
 .nav-link {
@@ -9,7 +14,6 @@ nav {
     font-family: 'Prosto One', cursive;
     font-size: 20px;
 }
-
 
 .navbar-nav {
     width: 100%;
